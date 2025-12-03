@@ -67,8 +67,8 @@ O sistema opera sobre uma arquitetura de **Plugins**, permitindo a extensão de 
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/maps-afm.git](https://github.com/seu-usuario/maps-afm.git)
-    cd maps-afm
+    git clone https://github.com/ProgGusta/software_maps_tcc.git
+    cd software_maps
     ```
 
 2.  **Crie e ative o ambiente virtual (Recomendado):**
